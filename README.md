@@ -2,6 +2,8 @@
 
 ## Installation (Python 3.10, CUDA 12.1, Torch 2.2)
 
+### Create Conda Environment
+
 ```bash
 conda create -n llm4ie python=3.10
 conda activate llm4ie
@@ -16,7 +18,7 @@ pip install --no-cache-dir torch==2.2.0 torchvision torchaudio
 # module load cuda/12.1
 ```
 
-### 2. Install FlashAttention
+### Install FlashAttention
 
 This project uses a CUDA-compiled `.whl` of FlashAttention.
 Install it manually from your local path (relative to project root):
@@ -29,7 +31,7 @@ pip install flash_attn/flash_attn-2.4.3.post1+cu122torch2.2cxx11abiFALSE-cp310-c
 > [https://github.com/Dao-AILab/flash-attention/releases](https://github.com/Dao-AILab/flash-attention/releases)
 
 
-### 3. Install Python dependencies and this project
+### Install Python dependencies and this project
 
 Install the current repo (in editable mode):
 
