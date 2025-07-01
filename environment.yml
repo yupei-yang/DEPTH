@@ -104,7 +104,6 @@ dependencies:
     - einops==0.8.1
     - exceptiongroup==1.2.2
     - filelock==3.18.0
-    - flash-attn==2.4.3.post1
     - fsspec==2025.3.2
     - greenlet==3.2.1
     - h11==0.16.0
@@ -169,4 +168,3 @@ dependencies:
     - wandb==0.19.9
     - wheel==0.45.1
     - zstandard==0.23.0
-prefix: /data3/yangyupei/envs/llm4ie
