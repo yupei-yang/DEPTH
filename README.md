@@ -46,6 +46,6 @@ awscli
 
 Then, run
 ```
-cd examples/build_scripts
+cd src/train/build_scripts/build_openrlhf.sh
 ./build_openrlhf.sh
 ```
